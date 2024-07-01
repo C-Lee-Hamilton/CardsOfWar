@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 10px gold ridge;
+  border: 10px rgb(196, 128, 28) ridge;
   box-shadow: inset 0px 0px 10px 10px black;
   border-radius: 50%;
   background-color: #35654d;
