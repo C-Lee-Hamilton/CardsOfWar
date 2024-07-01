@@ -1,0 +1,68 @@
+.Gameboard {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 10px gold ridge;
+  box-shadow: inset 0px 0px 10px 10px black;
+  border-radius: 50%;
+  background-color: #35654d;
+  height: 75vh;
+  width: 75vh;
+  padding: 0px;
+}
+
+.Display {
+  height: 40%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.P1_card,
+.Op_card {
+  width: 25%;
+}
+
+.P1_card {
+  margin-right: 5px;
+}
+
+.Op_card {
+  margin-left: 5px;
+}
+
+.P1_card_face,
+.Op_card_face {
+  border: 4px solid black;
+  border-radius: 10px;
+  height: 80%;
+}
+
+.Card_label {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.spent_div {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 80%;
+  align-self: end;
+  margin-bottom: 5px;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.spent_face {
+  display: flex;
+  border: 2px red solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+}

@@ -1,0 +1,27 @@
+.P_stack,
+.O_stack {
+  width: 100%;
+  position: relative;
+  display: flex;
+  text-align: center;
+  height: 20%;
+  justify-content: center;
+}
+
+.P_stack {
+  margin-bottom: 30px;
+}
+.O_stack {
+  margin-top: 30px;
+}
+
+.P_card,
+.O_card {
+  border-radius: 10px;
+  height: 100%;
+  width: 15%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: none;
+  align-content: center;
+}
